@@ -1,0 +1,21 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.local
+
+# Test / tooling caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# RAG knowledge base storage (FAISS index + document manifest)
+data/
